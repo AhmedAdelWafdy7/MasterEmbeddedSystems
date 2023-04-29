@@ -1,0 +1,8 @@
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:41:6:MCAL_SPI_Init	24	static
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:131:6:MCAL_SPI_DeInit	16	static
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:153:6:MCAL_SPI_GPIO_Set_Pins	24	static
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:327:6:MCAL_SPI_Transmit	24	static
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:350:6:MCAL_SPI_Receive	24	static
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:371:6:MCAL_SPI_Transmit_Receive	24	static
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:398:6:SPI1_HANDLER	16	static
+../Stm32_F103C6_Drivers/SPI/Stm32_F103C6_SPI.c:408:6:SPI2_HANDLER	16	static
