@@ -1,0 +1,3 @@
+I2C_Slave_EEPROM.c:9:6:EEPROM_Init	1
+I2C_Slave_EEPROM.c:22:9:EEPROM_Write_Nbyte	2
+I2C_Slave_EEPROM.c:35:9:EEPROM_Read_Byte	1
