@@ -1,5 +1,5 @@
 # Atmega32Driver
-##Reading Temp from sensor simulation video
+## Reading Temp from sensor simulation video
 
 
 
