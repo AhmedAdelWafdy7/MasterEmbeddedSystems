@@ -1,0 +1,9 @@
+lcd.c:20:6:delay_ms	3
+lcd.c:27:6:lcd_init	9
+lcd.c:142:6:lcd_kick	3
+lcd.c:161:6:lcd_send_char	7
+lcd.c:225:6:lcd_send_string	8
+lcd.c:272:6:lcd_is_busy	7
+lcd.c:319:6:lcd_send_command	7
+lcd.c:383:6:lcd_set_position	27
+lcd.c:452:6:lcd_clear	3

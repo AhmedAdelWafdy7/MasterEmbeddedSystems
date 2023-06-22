@@ -1,0 +1,8 @@
+main.c:49:5:main	19
+main.c:231:6:RFID_CARD_Enter_CallBack	1
+main.c:237:6:RFID_CARD_EXIT_CallBack	1
+main.c:245:6:Welcome	1
+main.c:255:6:LCD_Display_Empty_Slots	1
+main.c:264:6:LEDs_Init	1
+main.c:280:6:PIRs_Init	1
+main.c:298:6:Register_IDs_From_Admin	7

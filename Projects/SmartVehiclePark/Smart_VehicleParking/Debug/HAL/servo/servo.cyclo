@@ -1,0 +1,4 @@
+servo.c:19:6:Servo1_Entry_Gate_Init	1
+servo.c:30:6:Servo1_Entry_Gate	3
+servo.c:51:6:Servo2_Exit_Gate_Init	1
+servo.c:62:6:Servo2_Exit_Gate	3
