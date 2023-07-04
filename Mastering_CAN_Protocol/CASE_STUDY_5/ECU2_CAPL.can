@@ -1,0 +1,31 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  int variable_speed = 0;
+  int ACC_variable = 0;
+  message Speed_Value_message speed_message;
+}
+on start{
+  write("*-*-*-*-*-*-*-*-*-*-* Start ECU2 -*-*-*-*-*-*-*-*-*-*-*");
+}
+on message ACC_CMD_Message{
+  write("*-*-*-*-*-*-*-*-*-*-* ACC_CMD_Message Called -*-*-*-*-*-*-*-*-*-*-*");
+  if(this.ACC_ON.phys == 1){
+    if(variable_speed == 255)
+      variable_speed = 255;
+    else
+      variable_speed ++;
+  }else{
+    if(variable_speed == 0)
+      variable_speed =0;
+    else
+      variable_speed--;
+  }
+  speed_message.Speed.phys = variable_speed;
+  output(speed_message);
+}
