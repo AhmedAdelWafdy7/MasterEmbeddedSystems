@@ -30,7 +30,7 @@ void Switch_CPU_Access_level(enum CPU_Access_level access_level) {
     }
 }
 ```
-![Switch_CPU_Access_level](https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/7a3e9160-f6e6-4172-9c16-0ce9949ab80c)
+![Switch_CPU_Access_level](https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/715394f4-34d4-4fd3-bd37-b14543881785)
 
 ### Explanation
 
@@ -56,14 +56,14 @@ int main() {
     return 0;
 }
 ```
-![Main](https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/a0e06f1e-f789-47ac-b81c-38eddbd9ef70)
+![Main](https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/6cb12f27-d066-4b17-b53f-9806dc39b3d3)
 
 ### Explanation
 
 The `main` function calls the `Switch_CPU_Access_level` function with the argument `unprivileged`, which switches the CPU access level to unprivileged mode. After this call, the CPU will be operating in unprivileged mode until explicitly switched back to privileged mode.
 
 Additionally, the code mentions an `IRQ_EXTI9_callback` function, which presumably is an interrupt handler for an external interrupt on line 9. In this interrupt handler, the CPU access level is switched to privileged using the `Switch_CPU_Access_level` function.
-![EXTI](https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/28fb54e8-008d-49e5-a024-88a02ee54ee6)
+![EXTI](https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/75471a1b-66f4-448c-a34a-6755ec9b897f)
 
 Please note that switching from unprivileged to privileged mode directly from thread mode is not allowed. To switch to privileged mode, you must enter handler mode by triggering an exception or an interrupt.
 
