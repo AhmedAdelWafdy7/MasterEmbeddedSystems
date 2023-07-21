@@ -69,5 +69,7 @@ Please note that switching from unprivileged to privileged mode directly from th
 
 ---
 This lab demonstrates how to switch the CPU access level using assembly instructions. By understanding this process, you can effectively control the privilege levels of your ARM Cortex-M-based embedded applications.
-### Link to debugging video in KeiluVision :
-https://drive.google.com/file/d/1oVBTmZocP9tT0E1ox_LEA6nYxDzYqVtw/view?usp=sharing
+### debugging video in KeiluVision :
+
+https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/3cae923d-8729-4a28-b18e-fe3dc400b76d
+
