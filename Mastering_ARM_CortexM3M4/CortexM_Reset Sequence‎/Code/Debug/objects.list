@@ -1,0 +1,7 @@
+"./HAL/LCD/lcd.o"
+"./Src/main.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f103c8tx.o"
+"./Stm32F103c8t6_Drivers/EXTI/exti.o"
+"./Stm32F103c8t6_Drivers/GPIO/gpio.o"
