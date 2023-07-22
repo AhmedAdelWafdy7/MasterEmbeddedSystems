@@ -1,0 +1,7 @@
+main.c:65:6:Switch_CPU_Access_level	3
+main.c:85:6:SVC_Handler	1
+main.c:88:6:IRQ_EXTI9_callback	3
+main.c:99:5:TaskA	1
+main.c:103:5:TaskB	1
+main.c:107:6:Main_OS	3
+main.c:156:5:main	2
