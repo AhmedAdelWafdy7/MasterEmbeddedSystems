@@ -1,0 +1,9 @@
+gpio.c:10:9:Get_Bit_Location	28
+gpio.c:72:6:MCAL_GPIO_Init	10
+gpio.c:125:6:MCAL_GPIO_DeInit	6
+gpio.c:164:9:MCAL_GPIO_ReadPin	2
+gpio.c:182:10:MCAL_GPIO_ReadPort	1
+gpio.c:198:6:MCAL_GPIO_WritePort	1
+gpio.c:211:6:MCAL_GPIO_WritePin	2
+gpio.c:238:6:MCAL_GPIO_TogglePin	1
+gpio.c:250:9:MCAL_GPIO_LockPin	2
