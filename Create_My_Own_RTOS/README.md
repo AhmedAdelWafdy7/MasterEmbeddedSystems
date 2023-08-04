@@ -1,4 +1,5 @@
 # My Own Round Robin Priority-based Real-Time Operating System (RTOS)
+![D__embeded Systems_Advanced Embedded_Mastering Embedded_Keil_uvision_unit3_lab4_project_Keil_uvision_unit3_lab4_project uvprojx - µVision   Non-Commercial Use  8_4_2023 7_12_49 AM](https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/7d77dfc7-4333-4968-aeea-27837df59c0e)
 
 ## Introduction
 I have developed my own Real-Time Operating System (RTOS) from scratch, designed to work with various processors/MCUs. This RTOS is based on the Round Robin scheduling algorithm with priority support and includes a subsystem for Mutex handling to prevent priority inversion.
@@ -38,5 +39,11 @@ Upon releasing Mutex one, Task4 will execute until its termination.
 
 ## Important Note
 Please be cautious when editing the source files of the RTOS, especially MRTOS_Scheduler.c, as any unintended modifications may compromise the stability and functionality of the RTOS.
+
+## Debugging video
+  
+
+https://github.com/AhmedAdelWafdy7/MasterEmbeddedSystems/assets/107740350/ffb2f6a7-ba18-491b-8f5e-78558bb101ba
+
 
 
