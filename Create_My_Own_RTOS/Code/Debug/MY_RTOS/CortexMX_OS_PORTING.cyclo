@@ -1,0 +1,11 @@
+core_cm3.h:1640:22:__NVIC_SetPriority	2
+core_cm3.h:1838:26:SysTick_Config	2
+CortexMX_OS_PORTING.c:16:28:HardFault_Handler	1
+CortexMX_OS_PORTING.c:18:28:MemManage_Handler	1
+CortexMX_OS_PORTING.c:20:28:BusFault_Handler	1
+CortexMX_OS_PORTING.c:22:28:UsageFault_Handler	1
+CortexMX_OS_PORTING.c:24:30:SVC_Handler	1
+CortexMX_OS_PORTING.c:34:7:HW_Init	1
+CortexMX_OS_PORTING.c:41:7:Trigger_OS_PENDSV	1
+CortexMX_OS_PORTING.c:44:7:Start_Ticker	1
+CortexMX_OS_PORTING.c:50:7:SysTick_Handler	1
